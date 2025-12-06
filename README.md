@@ -24,14 +24,14 @@ This tool is designed for ethical hacking, CTF challenges, and security research
 ## 🛠️ **Installation**
 
 Make sure you have Python 3 installed.
-
+```
 python3 --version
-
+```
 Clone or download the repo:
-
+```
 git clone <your-repo-url>
 cd ethical-hacking-toolkit
-
+```
 
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -39,9 +39,9 @@ cd ethical-hacking-toolkit
 ## 📌 **Usage**
 
 Run the script:
-
+```
 python3 hash_cracker.py
-
+```
 You will be prompted with:
 
 === HASH CRACKER ===
@@ -52,8 +52,8 @@ Choose mode: 1) Wordlist  2) Brute Force (no wordlist)
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## 🔍 **Mode 1: Wordlist Attack**
-	1.	Enter the hash you want to crack
-	2.	Press Enter to use the default wordlist:
+	1.	Enter the hash you want to crack:
+	2.	Press Enter to use the default wordlist
 
 long_wordlist.txt
 
@@ -72,13 +72,13 @@ a–z
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## **📁 File Structure**
-
+```
 ethical-hacking-toolkit/
 │
 ├── hash_cracker.py        # Main tool
 ├── long_wordlist.txt      # Default wordlist
 └── README.md              # Documentation
-
+```
 
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
